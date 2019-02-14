@@ -6,6 +6,6 @@
         <script src="JS/script.js"></script>
     </head>
     <body>
-    
+        Hello World!
     </body>
 </html>
