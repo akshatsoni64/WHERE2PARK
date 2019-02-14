@@ -10,3 +10,4 @@ The team includes:
 5. Himanshu Prajapati
 6. Chanchal Gautam
 7. Anand Patel
+8. Sohil Khan
