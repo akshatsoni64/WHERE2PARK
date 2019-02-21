@@ -1,0 +1,59 @@
+img{
+   opacity: 0.75;
+     border-radius: 8px;
+     border: 1px solid #ddd; 
+     
+     filter: blur(5px);
+ 
+   
+   }
+   .responsive {
+ 
+ width: 100%;
+  max-width: 99%;
+  height: auto;
+
+  position: center;
+  top: 10%;
+  right: 0.1%;
+bottom: 0.1%
+
+}
+label {
+	width: 30%;
+	background-color: #b6d72c;
+	color :#838b83;
+
+
+	/*border-radius: 25px;*/
+}
+table,td,th
+{
+ 
+  border: 2px solid #73AD21;
+  
+position: relative;
+
+}
+table	
+{
+
+border: 2px solid black   
+position:relative;
+ left: 30%;
+ position: absolute;
+ top:20%;   
+font-family:Arial,"sans-serif";
+color:black;
+font-weight:bold;
+font-style:bold;
+font-size:30px;
+background: rgba(255, 255, 255, 0.6);
+}
+/*form
+{
+
+	align:center;
+position:absolute;
+  left: 28%;
+  top: 3%;*/

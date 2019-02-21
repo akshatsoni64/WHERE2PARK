@@ -1,0 +1,52 @@
+
+body
+   {
+        background-image: url(parking.png);
+    }
+
+#form
+{  
+ opacity: 0.9;
+ background-color: #cec4c4;
+ border: #cec4c4 solid 10px;
+ outline: #f2eded solid 10px;
+  }
+@font-face {
+  font-family: "Muli-Regular";
+  src: url("../fonts/muli/Muli-Regular.ttf"); }
+   <link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+   
+.headcode
+{
+  font-size: 50px;
+  font-family: "MUli-Regular";
+  font-weight: 400;
+  border-bottom-style: ridge;
+}
+@font-face {
+  font-family: "Muli-SemiBold";
+  src: url("../fonts/muli/Muli-SemiBold.ttf"); }
+@font-face {
+  font-family: "Muli-Bold";
+  src: url("../fonts/muli/Muli-Bold.ttf"); }
+  .text
+  {
+    border: 1px solid #ccc;
+    display: block;
+    width: 40%;
+    height: 30px;
+    padding: 0 20px;
+    border-radius: 25px;
+    font-family: "Muli-Bold";
+    align-text :centre; height: 43px;
+  }
+  .formbtn
+  {
+    border-radius: 20px;
+    font-family: "Muli-semiBold";
+  }
+  label
+  {
+    font-size: 15px;
+    font-family: "Muli-semiBold";
+  }

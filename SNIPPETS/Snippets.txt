@@ -1,0 +1,36 @@
+Jquery Lib
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+
+Boot Strap JS link
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+Book Strap CSS link
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+* Activities in WHERE2PARK:
+=User:
+1. User has to select the vehicle type first and then the choice of slot, whether to book or vacate
+- If Book, then redirect to register page. Else to free the slot, redirect to login page.
+
+2. After selecting the above choices, the user will either register their vehicle in parking slot or vacate the registered slot.
+
+3.1. For Registering the slot, the user will enter the required details in the form and login to the system.
+3.2. For Vacating the alloted slot, the user will login to the system with the registered mobile no. and the password given.
+
+=Admin:
+1. Admin can allot a slot to the user who does not have any device to access the website.
+
+2. Admin can directly allot and vacate the slot for the users not having cellphone or is not having access to internet.
+
+3. Enter the number of rows and the slots per row for the parking lot.
+
+4. Admin will monitor the live view of the parking lot.
+
+*Validations:
+Password: will be checked with the values in database and if there will be any value matching with the given value, new Password will be generated
+
+Presentation Key Points:
+-GPS Disadvantages, generalized parking system through event management by admin, 
+-Convenient/Easy to locate Slot Information, Uses SMS/Mail for convenience 
+-User has to remember the slot information even though we use the sensor system, and also it is expensive to install
+
