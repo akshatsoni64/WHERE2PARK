@@ -1,12 +1,9 @@
+<?php require 'server.php';?>
 <!DOCTYPE html>
 <html>
 <head>
   <link rel="stylesheet" href="css/reg.css">
-</head>
-<body>
-<?php include 'server.php';?>
-<?php include'home.php'; ?>
-
+  <?php require 'lib.php';?>
 <style>
   .p1
   {
@@ -25,6 +22,12 @@
     width: 35%;
   }
 </style>
+</head>
+<body>
+
+<?php require 'nav.php'; ?>
+
+
 <br><br><br>
 <div class="p1" id="form">
   <form action="#">

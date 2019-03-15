@@ -5,7 +5,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta http-equiv="x-ua-compatible" content="ie=edge">
    <title></title>
-<script>
+   <?php require 'lib.php';?>
 <script>
 $(document).ready(function(){
   $(".printcode").click(function(){
@@ -20,7 +20,7 @@ $(document).ready(function(){
 
 
 <body>
-   <?php include'admin.php'; ?>
+   <?php require 'admin.php'; ?>
 
              <br><br><br>
    <div class="container">

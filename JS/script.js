@@ -16,7 +16,7 @@ $(document).ready(function()
 			data: formdata,
 			success:function(data){
         alert(" Slot Registered Successfully");
-        $(location).attr('href',"/thanku.php");
+        $(location).attr('href',"thanku.php");
 			}
     });
   });
@@ -37,7 +37,7 @@ $(document).ready(function()
 			data: formdata,
 			success:function(data){
         alert("Slot Vacated Successfully");
-        $(location).attr('href',"/index.php");
+        $(location).attr('href',"index.php");
 			}
     });
   });

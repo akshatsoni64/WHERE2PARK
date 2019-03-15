@@ -9,12 +9,13 @@
 
     $_SESSION['contact']=$_POST['contact_val'];
     $vehicleType=$_POST['vehicle'];
+    //echo $vehicleType;
     $contactType=$_POST['contact'];
 
     $contact=$_POST['contact_val'];
     $sql="insert into userInfo(info,typeinfo) values('".$contact."','".$contactType."')";
     mysqli_query($db,$sql);
-    $sql_block="select * from block where status='0'";
+    $sql_block="select * from block where status='0' AND type='".$vehicleType."'";
     $result=mysqli_query($db,$sql_block);
     $record=mysqli_fetch_assoc($result);
     $r_id=$record['id'];
@@ -32,15 +33,16 @@
     mysqli_query($db,$sql);
     $_SESSION['slotno']=$slotno;
     $pwd=rand(100000,999999);
-
     $url="www.way2sms.com/api/v1/sendCampaign";
     $message = urlencode("Welcome to WHERE2PARK, The alloted slot no. is ".$slotno." Your Password is ".$pwd);// urlencode your message
     $curl = curl_init();
 
     if($contactType=="mobile")
     {
-      $apiKey="J9C72J8DC1W4NQH3GD5IFKTPNUK14ETC";
-      $secretKey="IDUEZX5LOHAJMOWD";
+      /*$apiKey="J9C72J8DC1W4NQH3GD5IFKTPNUK14ETC";
+      $secretKey="IDUEZX5LOHAJMOWD";*/
+      $apiKey="W9557FHEIKE4Q2GF52CAUUZW0C6EP7YZ";
+      $secretKey="9W76RTAZTK9VGGBV";
       $userType="stage";
       $phone=$_SESSION['contact'];
       $sender="W2PARK";
